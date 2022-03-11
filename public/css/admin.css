@@ -1,0 +1,30 @@
+#baap {
+    background-image: url('../images/home_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    overflow-y: auto;
+}
+
+#baap::-webkit-scrollbar {
+    display: none;
+}
+
+div header ul {
+    margin-left: 40%;
+    margin-top: 60px
+}
+
+.nav-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nav-item div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 44px;
+    font-style: italic;
+}

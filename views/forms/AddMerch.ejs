@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Document</title>
+</head>
+
+<body id="baap">
+    <form action="/form" method="POST">
+        <div class="input">
+            <input type="text" name="title" id="title" placeholder="Title">
+        </div>
+        <div class="input">
+            <input type="text" name="image" id="image" placeholder="Image URL">
+        </div>
+        <div class="input">
+            <input type="number" name="price" id="price" placeholder="Price">
+        </div>
+        <div class="input">
+            <input type="text" name="description" id="description" placeholder="Description">
+        </div>
+        <div class="input">
+            <input type="text" name="tags" id="tags" placeholder="Tags seprate with commas(,)">
+        </div>
+
+        <input type="hidden" name="type" id="type" value="merch">
+
+        <div id="button">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+</body>
+
+</html>

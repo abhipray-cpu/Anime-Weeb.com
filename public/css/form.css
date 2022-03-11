@@ -1,0 +1,63 @@
+#baap {
+    background-image: url('../images/home_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    overflow-y: auto;
+}
+
+#baap::-webkit-scrollbar {
+    display: none;
+}
+
+form {
+    margin-top: 100px;
+}
+
+.input {
+    margin-left: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input input,
+.input input:active,
+.input input:hover {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none !important;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    width: 400px;
+    font-style: italic;
+}
+
+.input input:focus {
+    outline: none !important;
+}
+
+.input input::placeholder {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+#button {
+    margin-left: 55%;
+}
+
+#button button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: 2px 2px 2px black;
+}
+
+#button button:hover {
+    box-shadow: 0px 0px 0px;
+}

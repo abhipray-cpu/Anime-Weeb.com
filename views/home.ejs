@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/footer.css">
+
+</head>
+
+<body id="baap">
+    <div>
+        <header>
+            <ul class="nav justify-content-start ml-4">
+                <li class="nav-item" id="navigation">
+                    <div>
+                        <a href="/merch" class="nav-link bg-transparent text-white ">Merchendaise</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+                <li class="nav-item" id="navigation">
+                    <div><a href="/anime" class="nav-link bg-transparent text-white ">Anime</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+                <li class="nav-item" id="navigation">
+                    <div>
+                        <a href="/amv" class="nav-link bg-transparent text-white ">AMV</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+                <li class="nav-item" id="navigation">
+                    <div><a href="/ost" class="nav-link bg-transparent text-white ">OST</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+                <li class="nav-item" id="navigation">
+                    <div><a href="/fanimation" class="nav-link bg-transparent text-white ">Fanimation</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+
+
+                <div id="search_container" style="width:460px">
+                    <form action="#" type="Post">
+
+                        <input type="text" name="search" id="search" placeholder="Search">
+                    </form>
+                </div>
+                <li class="nav-item" id="navigation" style="margin-left: 250px;">
+                    <div><a href="/login" class="nav-link bg-transparent text-white ">Login</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+                <li class="nav-item" id="navigation">
+                    <div><a href="/signup" class="nav-link bg-transparent text-white ">Signup</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+                <li class="nav-item" id="navigation">
+                    <div><a href="/admin" class="nav-link bg-transparent text-white ">Admin</a>
+                        <div id='under'></div>
+                    </div>
+                </li>
+
+
+
+            </ul>
+        </header>
+    </div>
+    <div id="carousel_div">
+        <div id="demo" class="carousel slide z-depth-1-half" data-ride="carousel" data-interval="1800">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+                <li data-target="#demo" data-slide-to="5"></li>
+
+
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/amv"><img src="/images/AMV.jpg" alt="AVM" id="imgCarousel"></a>
+                    <div class="carousel-caption">
+                        <h3 style="font-size: 30px;font-weight:bolder">AMV</h3>
+                        <p style="font-size:24px;font-weight:bolder">Awsome HD AMVs</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/anime"><img src="/images/anime.jpg" alt="Anime" id="imgCarousel"></a>
+                    <div class="carousel-caption">
+                        <h3 style="font-size: 30px;font-weight:bolder">Anime</h3>
+                        <p style="font-size: 24px;font-weight:bolder">Watch all the latest animes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/manga"><img src="/images/manga.jpg" alt="Manga" id="imgCarousel"></a>
+                    <div class="carousel-caption">
+                        <h3 style="font-size: 30px;color:rgb(247, 5, 45);font-weight:bolder">Manga</h3>
+                        <p style="font-size: 24px;color:rgb(250, 6, 47);font-weight: bolder">Read all the latest Mangas</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/merch"><img src="/images/merchendise.jpg" alt="Merchendise" id="imgCarousel"></a>
+                    <div class="carousel-caption">
+                        <h3 style="font-size: 30px;font-weight:bolder">MERCH</h3>
+                        <p style="font-size: 24px;font-weight:bolder">Merchensise of your favourite Animes</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/fanimation"><img src="/images/fanimation.jpg" alt="Fanimation" id="imgCarousel"></a>
+                    <div class="carousel-caption">
+                        <h3 style="font-size: 30px;font-weight:bolder">Fanimation</h3>
+                        <p style="font-size: 24px;font-weight:bolder">Watch Awsome Fanimations</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/hentai"><img src="/images/hentai.jpg" alt="Hentai" id="imgCarousel"></a>
+                    <div class="carousel-caption">
+                        <h3 style="font-size: 30px;font-weight:bolder;color:black">Hentai</h3>
+                        <p style="font-size: 30px;font-weight:bolder;color:black">Oppalicious</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </div>
+    <div id="content">
+        <div id="accordion">
+            <div class="content-item">
+                <div class="row-heding">
+                    <a data-toggle="collapse" href="#collapse1">
+                        Action
+                      </a>
+                </div>
+                <div id="collapse1" class="collapse show" data-parent="#accordion">
+                    <div class="grid-row">
+
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/action_test.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="row-heding">
+                    <a data-toggle="collapse" href="#collapse2">
+                        Adventure
+                      </a>
+                </div>
+
+                <div id="collapse2" class="collapse" data-parent="#accordion">
+                    <div class="grid-row">
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_adventure.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="row-heding">
+                    <a data-toggle="collapse" href="#collapse3">
+                        Slice of life
+                      </a>
+                </div>
+
+                <div id="collapse3" class="collapse" data-parent="#accordion">
+                    <div class="grid-row">
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_life.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="row-heding">
+                    <a data-toggle="collapse" href="#collapse4">
+                        Magic
+                      </a>
+                </div>
+
+                <div id="collapse4" class="collapse" data-parent="#accordion">
+                    <div class="grid-row">
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_magic.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="row-heding">
+                    <a data-toggle="collapse" href="#collapse5">
+                        Fantasy
+                      </a>
+                </div>
+
+                <div id="collapse5" class="collapse" data-parent="#accordion">
+                    <div class="grid-row">
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_fantasy.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="row-heding">
+                    <a data-toggle="collapse" href="#collapse6">
+                        Romance
+                      </a>
+                </div>
+
+                <div id="collapse6" class="collapse" data-parent="#accordion">
+                    <div class="grid-row">
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/test_romance.jpg')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="row-heding">
+                    <a class="card-link" data-toggle="collapse" href="#collapse7">
+                         Hentai
+                    </a>
+                </div>
+
+                <div id="collapse7" class="collapse" data-parent="#accordion">
+                    <div class="grid-row">
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+                        <div class="item" style="background-image: url('/images/hentai_test.png')">
+                            <header>Title</header>
+                            <p>Description of anime</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <%- include('include/footer.ejs')%>
+</body>
+
+</html>
