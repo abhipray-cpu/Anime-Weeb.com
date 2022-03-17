@@ -1,7 +1,9 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const path = require('path')
-const MONGO_URI = 'mongodb+srv://puttanpal:puttanpal@cluster0.vkdtx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+require('dotenv').config()
+
+const MONGO_URI = process.env.MONGO_URI
 const app = express()
 const mongoose = require('mongoose')
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -13,7 +15,7 @@ const Store = new mongoSession({
     collection: 'session'
 })
 app.use(session({
-    secret: "Jackwa aur jillwa gae upar hillwa panya bhran ke waste jackwa girgawa khopdi phatt gawa", // always make sure this key is a good and strong string
+    secret: process.env.SESSION_SECRET, // always make sure this key is a good and strong string
     resave: false,
     saveUninitialized: false,
     store: Store,
